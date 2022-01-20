@@ -1,4 +1,4 @@
-var text = 'UwU';
+var text = 'Under Construction';
 
 var textElements = text.split("").map(function(c) {
   return $('<span id="' + c + '">' + c + '</span>');
