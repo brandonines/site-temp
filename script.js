@@ -10,6 +10,6 @@ textElements.forEach(function(e, i) {
   el.append(e);
   e.hide();
   setTimeout(function() {
-    e.fadeIn(300)
-  }, 100 + i * delay)
+    e.fadeIn(200)
+  }, 20 + i * delay)
 });
