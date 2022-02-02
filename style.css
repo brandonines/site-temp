@@ -5,24 +5,19 @@
 }
 
 body {
-    font-family: 'Epilogue';
-    background-color: #2E2E2E;
-    color: #40C2F0;
+    font-family: 'Lato';
+    background-color: #f5f3f3;
+    color: #000;
     font-size: 5rem;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100vw;
     height: 100vh;
 }
 
-/* h3 {
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end); 
+.logo {
+    width: 175px;
 }
-
-@keyframes type{ 
-    from { width: 0; } 
-}  */
